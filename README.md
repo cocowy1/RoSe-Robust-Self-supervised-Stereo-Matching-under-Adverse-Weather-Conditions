@@ -26,11 +26,11 @@ RoSe addresses the challenge of **stereo matching under adverse weather conditio
 If you use or refer to RoSe in your work, please cite our paper:
 
 ```bibtex
-@article{rose2023tcsvt,
+@article{wang2025rose,
   title={RoSe: Robust Self-supervised Stereo Matching under Adverse Weather Conditions},
-  author={...},
+  author={Wang, Yun and Hu, Junjie and Hou, Junhui and Zhang, Chenghao and Yang, Renwei and Wu, Dapeng Oliver*},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2023}
+  year={2025}
 }
 ```
 
