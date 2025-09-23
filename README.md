@@ -16,7 +16,7 @@ RoSe addresses the challenge of **stereo matching under adverse weather conditio
 ---
 
 ## 📊 Highlights from the Paper
-- Extensive experiments on **KITTI 2015**, **SceneFlow**, and synthetic adverse weather datasets demonstrate RoSe’s superior performance.  
+- Extensive experiments on **KITTI 2015**, **DrivingStereo Weather Subset**,  **MS2 dataset**, and synthetic adverse weather datasets demonstrate RoSe’s superior performance.  
 - Particularly strong results in **foggy and rainy** environments compared to both supervised and self-supervised baselines.  
 - See *Tables 2–5* and *Figures 6–8* in the paper for detailed benchmarks.
 
