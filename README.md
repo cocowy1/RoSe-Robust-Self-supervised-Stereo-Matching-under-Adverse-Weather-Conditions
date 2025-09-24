@@ -75,7 +75,7 @@ Alternatively, we also support installing with pip:
 bash pip_install.sh
 ```
 
-# 1. Prepare training data
+## 1. Prepare training data
 To evaluate/train RoSe, you will need to download the required datasets.
 
 [SceneFlow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
@@ -131,19 +131,19 @@ DATA
 │   │   └── night
     └── AdverseWeather testset
 ```
-# 2. Create AdverseWeather subset
+## 2. Create AdverseWeather subset
 We employ cycleGAN-turbo [img2img-turbo](https://github.com/GaParmar/img2img-turbo) to generate the adverse weather subset.  The toolkit can be downloaded and used with the officially released day2night weights to generate the corresponding subsets by following the provided instructions. As day2rainy and day2foggy weights are not available in the official release, we train the model ourselves and additionally provide the trained day2rainy and day2foggy weights [day2foggy \& day2rainy](https://drive.google.com/drive/folders/1IWwIMiAeEtgjhJ-M-EKAh6h7C26WVjDu?dmr=1&ec=wgc-drive-globalnav-goto), thereby extending the applicability of the toolkit to a broader range of adverse weather conditions.
 
 We also provide the created AdverseKITTI dataset [dataset](https://drive.google.com/drive/folders/1PI-H2bD1VGv-DoBzi62ul3nhwYKQTtx9?dmr=1&ec=wgc-drive-globalnav-goto).
 
-# 3. Train on SceneFlow
+## 3. Train on SceneFlow
 Run `main_stereo.py` to train on the SceneFlow dataset. Please update the datapath in `main_stereo.py` to your training data path.
 Please note that the hyperparameter `enhancement=False` is used in the pre-training process.
 ```
 parser.add_argument('--enhancement', default=False, type=bool, help='optional feature refinement')
 ```
 
-# 4. Finetune \& Inference 
+## 4. Finetune \& Inference 
 Run `main_stereo_unp.py` to finetune on the different real-world datasets (Step 1). Please update the datapath in `main_stereo_unp.py` to your training data path.
 
 Run `main_stereo_pseudo.py` to finetune on the different real-world datasets (Step 2). Please update the datapath in `main_stereo_pseudo.py` to your training data path.
