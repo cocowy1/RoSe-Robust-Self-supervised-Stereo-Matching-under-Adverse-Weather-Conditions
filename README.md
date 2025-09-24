@@ -31,7 +31,7 @@ An overview of our RoSe.
   (a) denotes the self-supervised scene correspondence learning. Both branches share weights except for the feature extractors.
   (b) In Step 2, the frozen stereo model from the first step acts as the teacher model, generating high-quality pseudo labels on clear samples and guiding the student model (trainable) with mixed clear and adverse inputs. Both the teacher and student models share the same architecture.
 
-## Visual Comparison with two steps
+## Visual comparison with two steps
 
 <img width="1200" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/ablation_comparison.png"/></div>
 
