@@ -128,7 +128,9 @@ Please note that ' hyperparameters' enhancement=False in the pre-training proces
 
 # 3. Finetune \& Inference 
 Run `main_stereo_unp.py` to finetune on the different real-world datasets (Step 1). Please update the datapath in `main_stereo_unp.py` to your training data path.
+
 Run `main_stereo_pseudo.py` to finetune on the different real-world datasets (Step 2). Please update the datapath in `main_stereo_pseudo.py` to your training data path.
+
 Run `evaluate_stereo.py` to evaluate on the different real-world datasets. Please update the datapath in `evaluate_stereo.py` to your training data path.
 
 
