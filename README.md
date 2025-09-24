@@ -122,6 +122,16 @@ DATA
     └── AdverseWeather testset
 ```
 
+# 2. Train on SceneFlow
+Run `main_stereo.py` to train on the SceneFlow dataset. Please update the datapath in `main_stereo.py` to your training data path.
+Please note that ' hyperparameters' enhancement=False in the pre-training process.
+
+# 3. Finetune \& Inference 
+Run `main_stereo_unp.py` to finetune on the different real-world datasets (Step 1). Please update the datapath in `main_stereo_unp.py` to your training data path.
+Run `main_stereo_pseudo.py` to finetune on the different real-world datasets (Step 2). Please update the datapath in `main_stereo_pseudo.py` to your training data path.
+Run `evaluate_stereo.py` to evaluate on the different real-world datasets. Please update the datapath in `evaluate_stereo.py` to your training data path.
+
+
 ## 📎 Citation
 If you use or refer to RoSe in your work, please cite our paper:
 
