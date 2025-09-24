@@ -22,6 +22,9 @@ Self-supervised methods for vision tasks perform well in normal conditions but s
 - **Balanced Design**: Delivers competitive accuracy while maintaining efficiency for practical deployment.
   
 # Overview
+An overview of our RoSe. 
+  (a) denotes the self-supervised scene correspondence learning. Both branches share weights except for the feature extractors.
+  (b) In Step 2, the frozen stereo model from the first step acts as the teacher model, generating high-quality pseudo labels on clear samples and guiding the student model (trainable) with mixed clear and adverse inputs. Both the teacher and student models share the same architecture
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/framework_v2.png"/></div>
 
 ---
