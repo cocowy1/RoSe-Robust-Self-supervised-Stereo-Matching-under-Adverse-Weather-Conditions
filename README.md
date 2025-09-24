@@ -165,7 +165,7 @@ If you use or refer to RoSe in your work, please cite our paper:
 @article{wang2025rose,
   title={RoSe: Robust Self-supervised Stereo Matching under Adverse Weather Conditions},
   author={Wang, Yun and Hu, Junjie and Hou, Junhui and Zhang, Chenghao and Yang, Renwei and Wu, Dapeng Oliver*},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)},
   year={2025}
 }
 ```
