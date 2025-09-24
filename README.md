@@ -25,13 +25,13 @@ Self-supervised methods for vision tasks perform well in normal conditions but s
 
 ## 😊 Overview
 
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/framework_v2.png"/></div>
+<img width="1200" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/framework_v2.png"/></div>
 
 An overview of our RoSe. 
   (a) denotes the self-supervised scene correspondence learning. Both branches share weights except for the feature extractors.
   (b) In Step 2, the frozen stereo model from the first step acts as the teacher model, generating high-quality pseudo labels on clear samples and guiding the student model (trainable) with mixed clear and adverse inputs. Both the teacher and student models share the same architecture.
 
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/ablation_comparison.png"/></div>
+<img width="1200" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/ablation_comparison.png"/></div>
 
 Visual comparison of RoSe on the weather validation set. Baseline denotes that RAFTStereo was trained using the vanilla photometric consistency and disparity smooth losses. Step 1 indicates the self-supervised scene corresponding learning step. Step 2 denotes the adverse weather distillation step. The predicted disparity maps and their corresponding error maps are displayed in columns 2, 3, and 4, respectively.
 
