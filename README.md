@@ -56,7 +56,7 @@ We recommend using [conda](https://www.anaconda.com/distribution/) for installat
 
 ```
 conda env create -f conda_environment.yml
-conda activate unimatch
+conda activate RoSe
 ```
 
 Alternatively, we also support installing with pip:
