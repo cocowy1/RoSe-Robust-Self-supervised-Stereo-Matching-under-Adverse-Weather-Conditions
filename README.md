@@ -8,7 +8,7 @@ RoSe addresses the challenge of **stereo matching under adverse weather conditio
 # Motivation
 Self-supervised methods for vision tasks perform well in normal conditions but suffer significant performance degradation under adverse lighting and weather (night, rain, fog). This is because these conditions introduce noise and reduce visibility, which break the assumption of reliable photometric consistency across different views. As a result, supervision signals become unreliable, weakening the model’s learning process.
 
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/assumption.png"/></div>"/></div>
+<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/assumption.png"/></div>
 
 # Superior performance against adverse weather
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/teaser1.png"/></div>"/></div>
