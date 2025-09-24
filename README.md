@@ -150,6 +150,7 @@ Run `main_stereo_pseudo.py` to finetune on the different real-world datasets (St
 
 Run `evaluate_stereo.py` to evaluate on the different real-world datasets. Please update the datapath in `evaluate_stereo.py` to your training data path.
 
+---
 
 ## 📎 Citation
 If you use or refer to RoSe in your work, please cite our paper:
