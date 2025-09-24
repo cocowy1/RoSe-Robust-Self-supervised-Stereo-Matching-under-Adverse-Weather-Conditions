@@ -21,7 +21,7 @@ Self-supervised methods for vision tasks perform well in normal conditions but s
 - **Cross-domain Generalization**: Achieves superior robustness and generalization across diverse datasets and weather scenarios.  
 - **Balanced Design**: Delivers competitive accuracy while maintaining efficiency for practical deployment.
   
-# Overview
+## Overview
 
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/framework_v2.png"/></div>
 
@@ -36,17 +36,17 @@ An overview of our RoSe.
 - Particularly strong results in **foggy and rainy** environments compared to both supervised and self-supervised baselines.  
 - See *Tables 2–5* and *Figures 6–8* in the paper for detailed benchmarks.
 
-**Robust Generalization Performance**
+## Robust Generalization Performance
 
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/generalization.png"/></div>
 
-**Robust Performance in Adverse Weather Conditions**
+## Robust Performance in Adverse Weather Conditions
 
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/ds_performance.png"/></div>
 
 ---
 
-# Model Zoo
+## Model Zoo
 
 All pretrained models are available in the [Google Driver:ADStereo](https://drive.google.com/drive/folders/1jdx4-gU8WuytiolZbGDLI-NSUHlQWuH4) and [Google Driver:ADStereo_fast](https://drive.google.com/drive/folders/1WcGgA7OS1lf5JJ3ajbXw-hMtz8cXrQ7k?dmr=1&ec=wgc-drive-globalnav-goto)
 
