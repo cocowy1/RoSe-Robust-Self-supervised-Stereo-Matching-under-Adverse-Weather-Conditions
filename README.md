@@ -36,11 +36,11 @@ An overview of our RoSe.
 - Particularly strong results in **foggy and rainy** environments compared to both supervised and self-supervised baselines.  
 - See *Tables 2–5* and *Figures 6–8* in the paper for detailed benchmarks.
 
-Robust Generalization Performance
+# Robust Generalization Performance
 
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/generalization.png"/></div>
 
-Robust Performance in Adverse Weather Condition
+#  Robust Performance in Adverse Weather Conditions
 
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/ds_performance.png"/></div>
 
