@@ -48,53 +48,52 @@ Otherwise, you may need to change the corresponding paths in the scripts.
 
 ---
 
+## Installation
 
-# Environment
+Our code is developed based on pytorch 1.9.0, CUDA 10.2 and python 3.8. Higher version pytorch should also work well.
+
+We recommend using [conda](https://www.anaconda.com/distribution/) for installation:
+
 ```
-Python 3.9
-Pytorch 2.4.0
-```
-# Create a virtual environment and activate it.
-```
-conda create -n RoSe python=3.9
-conda activate RoSe
+conda env create -f conda_environment.yml
+conda activate unimatch
 ```
 
-# Dependencies
+Alternatively, we also support installing with pip:
+
 ```
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -c nvidia
-pip install opencv-python
-pip install scikit-image
-pip install tensorboard
-pip install matplotlib 
-pip install tqdm
-pip install chardet
-pip install imageio
-pip install thop
-pip install timm==0.5.4
+bash pip_install.sh
 ```
 
 # 1. Prepare training data
-To evaluate/train ADStereo, you will need to download the required datasets.
+To evaluate/train RoSe, you will need to download the required datasets.
 
 [SceneFlow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
 
 [KITTI](https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 
-[Middlebury](https://vision.middlebury.edu/stereo/submit3/)
+[DrivingStereo](https://drivingstereo-dataset.github.io/)
 
-[ETH3D](https://www.eth3d.net/datasets#low-res-two-view-test-data)
+[MS2](https://github.com/UkcheolShin/MS2-MultiSpectralStereoDataset)
 
 By default `datasets.py` will search for the datasets in these locations.
 
 ```bash
 DATA
-├── KITTI
+├── AdverseKITTI
 │   ├── kitti_2012
-│   │   └── training
+│   │   └── robust_train
+│   │      └── clear
+│   │      └── foggy
+│   │      └── rainy
+│   │      └── night
         └── testing
 │   ├── kitti_2015
-│   │   └── training
+│   │   └── robust_train
+│   │      └── clear
+│   │      └── foggy
+│   │      └── rainy
+│   │      └── night
         └── testing
 └── SceneFlow
     ├── Driving
