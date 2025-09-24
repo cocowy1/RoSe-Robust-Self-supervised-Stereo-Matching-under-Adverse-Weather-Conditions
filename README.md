@@ -105,12 +105,21 @@ DATA
     └── Monkaa
         ├── disparity
         └── frames_finalpass
-└── Middlebury
-    ├── trainingH
-    ├── trainingH_GT
-└── ETH3D
-    ├── two_view_training
-    ├── two_view_training_gt
+├── DrivingStereo
+│   ├── robust_train
+│   │   └── clear
+│   │   └── foggy
+│   │   └── rainy
+│   │   └── night
+    └── AdverseWeather testset
+
+├── MS2
+│   ├── robust_train
+│   │   └── clear
+│   │   └── foggy
+│   │   └── rainy
+│   │   └── night
+    └── AdverseWeather testset
 ```
 
 ## 📎 Citation
