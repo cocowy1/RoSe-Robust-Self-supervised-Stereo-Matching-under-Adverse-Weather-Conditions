@@ -134,7 +134,7 @@ DATA
 # 2. Create AdverseWeather subset
 We employ cycleGAN-turbo [img2img-turbo](https://github.com/GaParmar/img2img-turbo) to generate the adverse weather subset.  The toolkit can be downloaded and used with the officially released day2night weights to generate the corresponding subsets by following the provided instructions. As day2rainy and day2foggy weights are not available in the official release, we train the model ourselves and additionally provide the trained day2rainy and day2foggy weights [day2foggy \& day2rainy](https://drive.google.com/drive/folders/1IWwIMiAeEtgjhJ-M-EKAh6h7C26WVjDu?dmr=1&ec=wgc-drive-globalnav-goto), thereby extending the applicability of the toolkit to a broader range of adverse weather conditions.
 
-We also provide the created AdverseKITTI dataset [dataset](https://drive.google.com/drive/folders/1PI-H2bD1VGv-DoBzi62ul3nhwYKQTtx9?dmr=1&ec=wgc-drive-globalnav-goto)
+We also provide the created AdverseKITTI dataset [dataset](https://drive.google.com/drive/folders/1PI-H2bD1VGv-DoBzi62ul3nhwYKQTtx9?dmr=1&ec=wgc-drive-globalnav-goto).
 
 # 3. Train on SceneFlow
 Run `main_stereo.py` to train on the SceneFlow dataset. Please update the datapath in `main_stereo.py` to your training data path.
