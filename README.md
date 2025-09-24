@@ -124,7 +124,10 @@ DATA
 
 # 2. Train on SceneFlow
 Run `main_stereo.py` to train on the SceneFlow dataset. Please update the datapath in `main_stereo.py` to your training data path.
-Please note that ' hyperparameters' enhancement=False in the pre-training process.
+Please note that the hyperparameter `enhancement=False` is used in the pre-training process.
+```
+parser.add_argument('--enhancement', default=False, type=bool, help='optional feature refinement')
+```
 
 # 3. Finetune \& Inference 
 Run `main_stereo_unp.py` to finetune on the different real-world datasets (Step 1). Please update the datapath in `main_stereo_unp.py` to your training data path.
