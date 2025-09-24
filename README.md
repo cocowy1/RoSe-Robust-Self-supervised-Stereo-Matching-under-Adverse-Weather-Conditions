@@ -21,7 +21,7 @@ Self-supervised methods for vision tasks perform well in normal conditions but s
 - **Cross-domain Generalization**: Achieves superior robustness and generalization across diverse datasets and weather scenarios.  
 - **Balanced Design**: Delivers competitive accuracy while maintaining efficiency for practical deployment.
   
-## Overview
+## 😊 Overview
 
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/framework_v2.png"/></div>
 
