@@ -8,18 +8,18 @@ RoSe addresses the challenge of **stereo matching under adverse weather conditio
 # Motivation
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/assumption.png"/></div>"/></div>
 
-# Overview
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/framework_v2.png"/></div>"/></div>
-
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/framework_v3.png"/></div>"/></div>
-
+# Superior performance against adverse weather
+<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/teaser1.png"/></div>"/></div>
 ---
 
 ## 🚀 Key Contributions
 - **Robust Self-supervised Framework**: Learns disparity estimation without requiring ground-truth labels, leveraging image reconstruction and disparity consistency losses.  
 - **Multi-scale Guidance**: Mitigates the degradation effects of adverse weather on stereo matching.  
 - **Cross-domain Generalization**: Achieves superior robustness and generalization across diverse datasets and weather scenarios.  
-- **Balanced Design**: Delivers competitive accuracy while maintaining efficiency for practical deployment.  
+- **Balanced Design**: Delivers competitive accuracy while maintaining efficiency for practical deployment.
+  
+# Overview
+<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/framework_v2.png"/></div>"/></div>
 
 ---
 
