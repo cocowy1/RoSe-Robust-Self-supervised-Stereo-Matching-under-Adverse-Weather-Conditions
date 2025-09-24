@@ -8,10 +8,10 @@ RoSe addresses the challenge of **stereo matching under adverse weather conditio
 ## 🎓 Motivation
 Self-supervised methods for vision tasks perform well in normal conditions but suffer significant performance degradation under adverse lighting and weather (night, rain, fog). This is because these conditions introduce noise and reduce visibility, which break the assumption of reliable photometric consistency across different views. As a result, supervision signals become unreliable, weakening the model’s learning process.
 
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/assumption.png"/></div>
+<img width="1200" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/assumption.png"/></div>
 
 ## 📢 Superior performance against adverse weather
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/comparison_1.png"/></div>
+<img width="1200" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/comparison_1.png"/></div>
 
 ---
 
@@ -44,11 +44,11 @@ Visual comparison of RoSe on the weather validation set. Baseline denotes that R
 
 ## 	👊 Robust Generalization Performance
 
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/generalization.png"/></div>
+<img width="1200" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/generalization.png"/></div>
 
 ## 💪 Robust Performance in Adverse Weather Conditions
 
-<img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/ds_performance.png"/></div>
+<img width="1200" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/ds_performance.png"/></div>
 
 ---
 
