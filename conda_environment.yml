@@ -1,4 +1,4 @@
-name: unimatch
+name: RoSe
 channels:
   - pytorch
   - defaults
