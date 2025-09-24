@@ -5,6 +5,14 @@ This repository hosts the official resources for the paper *“RoSe: Robust Self
 
 RoSe addresses the challenge of **stereo matching under adverse weather conditions** such as rain, fog, and snow, by introducing a **robust self-supervised learning framework** that eliminates the dependency on dense ground-truth disparity annotations.
 
+# Motivation
+<img width="900" src="https://github.com/cocowy1/ADStereo/blob/main/figs/assumption.png"/></div>"/></div>
+
+# Overview
+<img width="900" src="https://github.com/cocowy1/ADStereo/blob/main/figs/framework_v2.png"/></div>"/></div>
+
+<img width="900" src="https://github.com/cocowy1/ADStereo/blob/main/figs/framework_v3.png"/></div>"/></div>
+
 ---
 
 ## 🚀 Key Contributions
