@@ -50,7 +50,7 @@ An overview of our RoSe.
 
 ## 🏢 Model Zoo
 
-All pretrained models are available in the [Google Driver:ADStereo](https://drive.google.com/drive/folders/1jdx4-gU8WuytiolZbGDLI-NSUHlQWuH4) and [Google Driver:ADStereo_fast](https://drive.google.com/drive/folders/1WcGgA7OS1lf5JJ3ajbXw-hMtz8cXrQ7k?dmr=1&ec=wgc-drive-globalnav-goto)
+All pretrained models are available in the [RoSe](https://drive.google.com/drive/folders/1FVwilmYtGXq0iQaEVT46nbXKaHXj44p5?dmr=1&ec=wgc-drive-globalnav-goto) 
 
 We assume the downloaded weights are located under the `./trained` directory. 
 
@@ -86,7 +86,7 @@ To evaluate/train RoSe, you will need to download the required datasets.
 
 [MS2](https://github.com/UkcheolShin/MS2-MultiSpectralStereoDataset)
 
-By default `datasets.py` will search for the datasets in these locations.
+By default, `datasets.py` will search for the datasets in these locations.
 
 ```bash
 DATA
@@ -132,9 +132,10 @@ DATA
     └── AdverseWeather testset
 ```
 # 2. Create AdverseWeather subset
-We employ cycleGAN-turbo [img2img-turbo](https://github.com/GaParmar/img2img-turbo) to generate the adverse weather subset.  The toolkit can be downloaded and used with the officially released day2night weights to generate the corresponding subsets by following the provided instructions. As day2rainy and day2foggy weights are not available in the official release, we train the model ourselves and additionally provide the trained day2rainy and day2foggy weights [Google Driver:day2foggy](https://drive.google.com/drive/folders/1WcGgA7OS1lf5JJ3ajbXw-hMtz8cXrQ7k?dmr=1&ec=wgc-drive-globalnav-goto), thereby extending the applicability of the toolkit to a broader range of adverse weather conditions.
+We employ cycleGAN-turbo [img2img-turbo](https://github.com/GaParmar/img2img-turbo) to generate the adverse weather subset.  The toolkit can be downloaded and used with the officially released day2night weights to generate the corresponding subsets by following the provided instructions. As day2rainy and day2foggy weights are not available in the official release, we train the model ourselves and additionally provide the trained day2rainy and day2foggy weights [day2foggy \& day2rainy](https://drive.google.com/drive/folders/1IWwIMiAeEtgjhJ-M-EKAh6h7C26WVjDu?dmr=1&ec=wgc-drive-globalnav-goto), thereby extending the applicability of the toolkit to a broader range of adverse weather conditions.
 
-We also provide the created AdverseKITTI dataset[Google Driver:dataset](https://drive.google.com/drive/folders/1PI-H2bD1VGv-DoBzi62ul3nhwYKQTtx9?dmr=1&ec=wgc-drive-globalnav-goto)
+We also provide the created AdverseKITTI dataset [dataset](https://drive.google.com/drive/folders/1PI-H2bD1VGv-DoBzi62ul3nhwYKQTtx9?dmr=1&ec=wgc-drive-globalnav-goto)
+
 # 3. Train on SceneFlow
 Run `main_stereo.py` to train on the SceneFlow dataset. Please update the datapath in `main_stereo.py` to your training data path.
 Please note that the hyperparameter `enhancement=False` is used in the pre-training process.
