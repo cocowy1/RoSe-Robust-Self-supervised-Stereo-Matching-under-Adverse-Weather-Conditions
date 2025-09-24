@@ -38,6 +38,82 @@ An overview of our RoSe.
 
 ---
 
+# Model Zoo
+
+All pretrained models are available in the [Google Driver:ADStereo](https://drive.google.com/drive/folders/1jdx4-gU8WuytiolZbGDLI-NSUHlQWuH4) and [Google Driver:ADStereo_fast](https://drive.google.com/drive/folders/1WcGgA7OS1lf5JJ3ajbXw-hMtz8cXrQ7k?dmr=1&ec=wgc-drive-globalnav-goto)
+
+We assume the downloaded weights are located under the `./trained` directory. 
+
+Otherwise, you may need to change the corresponding paths in the scripts.
+
+---
+
+
+# Environment
+```
+Python 3.9
+Pytorch 2.4.0
+```
+# Create a virtual environment and activate it.
+```
+conda create -n RoSe python=3.9
+conda activate RoSe
+```
+
+# Dependencies
+```
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -c nvidia
+pip install opencv-python
+pip install scikit-image
+pip install tensorboard
+pip install matplotlib 
+pip install tqdm
+pip install chardet
+pip install imageio
+pip install thop
+pip install timm==0.5.4
+```
+
+# 1. Prepare training data
+To evaluate/train ADStereo, you will need to download the required datasets.
+
+[SceneFlow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
+
+[KITTI](https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
+
+[Middlebury](https://vision.middlebury.edu/stereo/submit3/)
+
+[ETH3D](https://www.eth3d.net/datasets#low-res-two-view-test-data)
+
+By default `datasets.py` will search for the datasets in these locations.
+
+```bash
+DATA
+├── KITTI
+│   ├── kitti_2012
+│   │   └── training
+        └── testing
+│   ├── kitti_2015
+│   │   └── training
+        └── testing
+└── SceneFlow
+    ├── Driving
+    │   ├── disparity
+    │   └── frames_finalpass
+    ├── FlyingThings3D
+    │   ├── disparity
+    │   └── frames_finalpass
+    └── Monkaa
+        ├── disparity
+        └── frames_finalpass
+└── Middlebury
+    ├── trainingH
+    ├── trainingH_GT
+└── ETH3D
+    ├── two_view_training
+    ├── two_view_training_gt
+```
+
 ## 📎 Citation
 If you use or refer to RoSe in your work, please cite our paper:
 
