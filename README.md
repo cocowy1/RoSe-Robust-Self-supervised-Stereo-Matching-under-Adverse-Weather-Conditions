@@ -1,6 +1,6 @@
-# RoSe🌹: Robust Self-supervised Stereo Matching under Adverse Weather Conditions [TCSVT 2025] 
+# <a href="https://arxiv.org/pdf/2509.19165"><img src="https://img.shields.io/badge/arXiv-2509.19165-b31b1b?logo=arxiv" alt='arxiv'></a>  RoSe🌹: Robust Self-supervised Stereo Matching under Adverse Weather Conditions [TCSVT 2025] 
 
-## 📖 Introduction  <a href="https://arxiv.org/pdf/2509.19165"><img src="https://img.shields.io/badge/arXiv-2509.19165-b31b1b?logo=arxiv" alt='arxiv'></a> 
+## 📖 Introduction  
 This repository hosts the official resources for the paper *“RoSe: Robust Self-supervised Stereo Matching under Adverse Weather Conditions”* (published in **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**).
 
 RoSe addresses the challenge of **stereo matching under adverse weather conditions** such as rain, fog, and snow, by introducing a **robust self-supervised learning framework** that eliminates the dependency on dense ground-truth disparity annotations.
