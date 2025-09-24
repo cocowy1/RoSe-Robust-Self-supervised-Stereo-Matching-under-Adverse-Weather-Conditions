@@ -10,6 +10,7 @@ RoSe addresses the challenge of **stereo matching under adverse weather conditio
 
 # Superior performance against adverse weather
 <img width="900" src="https://github.com/cocowy1/RoSe-Robust-Self-supervised-Stereo-Matching-under-Adverse-Weather-Conditions/blob/main/images/teaser1.png"/></div>"/></div>
+
 ---
 
 ## 🚀 Key Contributions
